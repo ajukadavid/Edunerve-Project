@@ -41,6 +41,7 @@ h1 {
     position: absolute;
     top: 25%;
     width: 100%;
+    display: grid;
     left: 11%;
 }
 
@@ -82,18 +83,24 @@ h1 {
         padding: 0;
         overflow-x: hidden;
     }
+    .item1,
+    .item2,
+    .item3 {
+        display: grid;
+    }
+    #container {
+        position: absolute;
+        left: 0;
+    }
     h1 {
         position: absolute;
         top: 13%;
         left: 10%;
         font-size: 15px;
     }
-    #navigation {
-        width: 100%;
-    }
     #nav-bar {
-        display: grid;
-        width: 100%;
+        width: 130%;
+        position: absolute;
         padding: 1px;
     }
     #logo {
